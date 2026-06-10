@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Arjun S | Frontend Developer, React.js Enthusiast, Computer Science Engineering Student. Portfolio showcasing web development projects, skills, internship experience and achievements.">
+  <title>Arjun's Digital Canvas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="app-container">
+
+    <!-- Fixed Navigation Header -->
+    <header>
+      <a href="#home" class="logo" id="header-logo">ARJUN<span>.</span></a>
+
+      <button class="menu-toggle" aria-label="Toggle Menu" id="menu-toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="navbar">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="tel:+919061813462" class="nav-phone">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+          </svg>
+          9061813462
+        </a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+      <!-- Home Page -->
+      <section id="home" class="section home-section visible">
+        <div class="home-content">
+          <div class="home-greeting">Hello, I'm</div>
+          <h1 class="home-name">ARJUN<br>S</h1>
+          <div class="home-title">Frontend Developer · MERN Stack Enthusiast</div>
+
+          <div class="home-actions">
+            <a href="#projects" class="btn btn-primary">
+              PORTFOLIO
+              <svg viewBox="0 0 24 24">
+                <path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-accent">HIRE ME</a>
+          </div>
+
+          <div class="home-socials">
+            <a href="https://github.com/arjunshaju41" target="_blank" class="social-icon" aria-label="GitHub">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/arjun-shaju401?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+              target="_blank" class="social-icon" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 3,3H5M18.5,18.5V13.2A5.26,5.26 0 0,0 13.24,7.94C11.9,7.94 10.79,8.68 10.2,9.78V8.5H5.5V18.5H10.2V11A2.5,2.5 0 0,1 12.7,8.5A2.5,2.5 0 0,1 15.2,11V18.5H18.5M7.85,6A1.85,1.85 0 1,0 6,4.15A1.85,1.85 0 0,0 7.85,6Z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/_ft.arjunnnn_?igsh=OGNxMGw0MDBlcnZ1" target="_blank" class="social-icon"
+              aria-label="Instagram">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4A3.6,3.6 0 0,0 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6A3.6,3.6 0 0,0 16.4,4H7.6M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5Z" />
+              </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" class="social-icon" aria-label="Facebook">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A9.96 9.96 0 0,0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" />
+              </svg>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon" aria-label="Twitter">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.95C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.44 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Page -->
+      <section id="about" class="section">
+        <div class="about-grid">
+          <div class="about-left">
+            <div class="section-label">Let's Connect</div>
+            <h2 class="section-title">ABOUT</h2>
+            <a href="mailto:arjunshaju410@gmail.com" class="about-email">arjunshaju410@gmail.com</a>
+
+            <p class="about-description">
+              B.Tech Graduate '2026 in Computer Science and Engineering from Rajadhani Institute of Engineering and
+              Technology, with strong logical problem-solving skills and hands-on project experience.
+            </p>
+            <p class="about-description">
+              I'm a passionate, self-taught full-stack developer specializing in the MERN stack- building reliable,
+              scalable solutions for real-world problems, from IoT-driven dashboards to college management platforms.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat-item">
+                <div class="stat-number">3+</div>
+                <div class="stat-text">PROJECTS</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">EH &amp; ML</div>
+                <div class="stat-text">INTERN @<br>PACELAB</div>
+              </div>
+            </div>
+
+            <div class="about-contact-info">
+              <div class="contact-detail">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+                </svg>
+                Varkala, Trivandrum, Kerala
+              </div>
+              <div class="contact-detail">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                </svg>
+                +91 9061813462
+              </div>
+            </div>
+          </div>
+
+          <div class="about-right">
+            <div class="portrait-wrapper">
+              <img src="assets/arjun_portrait.png" alt="Arjun Aji Portrait" class="portrait-img">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Page -->
+      <section id="skills" class="section">
+        <div style="max-width: 1200px; margin: 0 auto 3rem auto;">
+          <h2 class="section-title" style="margin-bottom: 0.5rem;">SKILLS & TOOLS</h2>
+          <p class="about-description" style="margin-bottom: 0;">A snapshot of the technologies I work with daily and
+            the disciplines I bring to every project.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Column 1: Software Skills -->
+          <div class="skills-column">
+            <h3 class="skills-column-title">SOFTWARE SKILLS</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">React.js</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-percent="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Node.js / Express</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-percent="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">MongoDB</span>
+                  <span class="skill-percent">82%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-percent="82%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">JavaScript / TypeScript</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-percent="88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-percent="75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Java / C</span>
+                  <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-percent="70%"></div>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="skills-column-title sub-section-title">LANGUAGES</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">Malayalam</span>
+                  <span class="skill-percent">100%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-percent="100%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">English</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-percent="85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: What I Do -->
+          <div class="skills-column">
+            <h3 class="skills-column-title">WHAT I DO</h3>
+            <div class="what-i-do-list">
+              <div class="what-i-do-item">
+                <div class="what-i-do-line"></div>
+                <span>MERN Stack Development</span>
+              </div>
+              <div class="what-i-do-item">
+                <div class="what-i-do-line"></div>
+                <span>REST API Design</span>
+              </div>
+              <div class="what-i-do-item">
+                <div class="what-i-do-line"></div>
+                <span>Database Modeling</span>
+              </div>
+              <div class="what-i-do-item">
+                <div class="what-i-do-line"></div>
+                <span>IoT & ESP32 Systems</span>
+              </div>
+              <div class="what-i-do-item">
+                <div class="what-i-do-line"></div>
+                <span>Git & GitHub Workflow</span>
+              </div>
+              <div class="what-i-do-item">
+                <div class="what-i-do-line"></div>
+                <span>Responsive UI / UX</span>
+              </div>
+            </div>
+
+            <h3 class="skills-column-title sub-section-title">PERSONAL SKILLS</h3>
+            <p class="personal-skills-text">
+              Logical problem-solving · Team collaboration · Self-learning · Curiosity · Ownership
+            </p>
+          </div>
+
+          <!-- Column 3: Tools & Education -->
+          <div class="skills-column">
+            <h3 class="skills-column-title">TOOLS</h3>
+            <div class="tools-tags">
+              <span class="tool-tag">VS Code</span>
+              <span class="tool-tag">Git</span>
+              <span class="tool-tag">GitHub</span>
+              <span class="tool-tag">MongoDB Atlas</span>
+              <span class="tool-tag">Supabase</span>
+              <span class="tool-tag">Postman</span>
+              <span class="tool-tag">Figma</span>
+            </div>
+
+            <h3 class="skills-column-title">EDUCATION</h3>
+            <div class="info-card">
+              <div class="info-card-title">B.Tech Computer Science & Engineering</div>
+              <div class="info-card-subtitle">Rajadhani Institute of Engineering and Technology</div>
+              <div class="info-card-date">2022 — 2026</div>
+            </div>
+
+            <h3 class="skills-column-title" style="margin-top: 2rem;">INTERNSHIP</h3>
+            <div class="info-card">
+              <div class="info-card-title">Ethical Hacking &amp; Machine Learning</div>
+              <div class="info-card-subtitle">Pacelab Kochi</div>
+              <div class="info-card-date">Oct 2023</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Page -->
+      <section id="projects" class="section">
+        <div style="max-width: 1200px; margin: 0 auto 3rem auto;">
+          <div class="section-label">Featured Work</div>
+          <h2 class="section-title" style="margin-bottom: 0.5rem;">PROJECTS</h2>
+          <p class="about-description" style="margin-bottom: 0;">A selection of full-stack and IoT projects I've
+            designed, shipped, and learned from.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Card 1: Sports Website -->
+          <div class="project-card">
+            <div class="project-card-header">
+              <span class="project-badge">Academic Project</span>
+              <a href="#" class="project-link-icon" aria-label="Project Link">
+                <svg viewBox="0 0 24 24">
+                  <path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
+                </svg>
+              </a>
+            </div>
+            <div class="project-main">
+              <h3 class="project-title">Sports Website</h3>
+              <div class="project-tagline">College Sports Portal with Real-Time Updates</div>
+              <p class="project-desc">
+                Developed a sports website for our college having real time updates about the events happening in the
+                college.
+              </p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <div class="project-buttons">
+                <button class="btn-sm btn-sm-primary btn-read-more" data-project-id="sportsweb">READ MORE</button>
+                <button class="btn-sm btn-sm-outline">GITHUB</button>
+                <button class="btn-sm btn-sm-outline">LIVE</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: GeneSage -->
+          <div class="project-card">
+            <div class="project-card-header">
+              <span class="project-badge">AI / Bioinformatics</span>
+              <a href="#" class="project-link-icon" aria-label="Project Link">
+                <svg viewBox="0 0 24 24">
+                  <path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
+                </svg>
+              </a>
+            </div>
+            <div class="project-main">
+              <h3 class="project-title">GeneSage</h3>
+              <div class="project-tagline">AI-Driven DNA Mutation Analysis Platform</div>
+              <p class="project-desc">
+                An AI-driven genomic analysis and decision-support platform designed to analyze DNA mutations and link
+                them to disease risks and drug responses in a clear, clinically inspired manner.
+              </p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="project-tag">AI / ML</span>
+                <span class="project-tag">Genomics</span>
+                <span class="project-tag">Python</span>
+                <span class="project-tag">React.js</span>
+              </div>
+              <div class="project-buttons">
+                <button class="btn-sm btn-sm-primary btn-read-more" data-project-id="genesage">READ MORE</button>
+                <button class="btn-sm btn-sm-outline">GITHUB</button>
+                <button class="btn-sm btn-sm-outline">LIVE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Page -->
+      <section id="contact" class="section">
+        <div class="contact-grid">
+          <div class="contact-left">
+            <div class="section-label">Let's Talk</div>
+            <h2 class="section-title">CONTACT</h2>
+            <p class="contact-left-description">
+              Have a project in mind, an internship opportunity, or just want to say hi? Drop a message — I usually
+              reply within a day.
+            </p>
+
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4M20,8L12,13L4,8V6L12,11L20,6V8Z" />
+                  </svg>
+                </div>
+                <div class="contact-info-text">arjunshaju410@gmail.com</div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                  </svg>
+                </div>
+                <div class="contact-info-text">+91 9061813462</div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+                  </svg>
+                </div>
+                <div class="contact-info-text">Varkala, Trivandrum, Kerala</div>
+              </div>
+            </div>
+
+            <div class="home-socials">
+              <a href="https://github.com/arjunshaju41" target="_blank" class="social-icon" aria-label="GitHub">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/arjun-shaju401?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                target="_blank" class="social-icon" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 3,3H5M18.5,18.5V13.2A5.26,5.26 0 0,0 13.24,7.94C11.9,7.94 10.79,8.68 10.2,9.78V8.5H5.5V18.5H10.2V11A2.5,2.5 0 0,1 12.7,8.5A2.5,2.5 0 0,1 15.2,11V18.5H18.5M7.85,6A1.85,1.85 0 1,0 6,4.15A1.85,1.85 0 0,0 7.85,6Z" />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/_ft.arjunnnn_?igsh=OGNxMGw0MDBlcnZ1" target="_blank"
+                class="social-icon" aria-label="Instagram">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4A3.6,3.6 0 0,0 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6A3.6,3.6 0 0,0 16.4,4H7.6M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5Z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <div class="contact-form-container">
+              <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email"
+                    required>
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea id="message" name="message" class="form-input" placeholder="Enter your message"
+                    required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit" id="submit-btn">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M2,21L23,12L2,3V10L17,12L2,14V21Z" />
+                  </svg>
+                  SEND MESSAGE
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-text">© 2026 Arjun Aji. Built with MERN & <span>❤️</span>.</div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/arjunshaju41" target="_blank" class="footer-social-icon" aria-label="GitHub">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/arjun-shaju401?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+          target="_blank" class="footer-social-icon" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 3,3H5M18.5,18.5V13.2A5.26,5.26 0 0,0 13.24,7.94C11.9,7.94 10.79,8.68 10.2,9.78V8.5H5.5V18.5H10.2V11A2.5,2.5 0 0,1 12.7,8.5A2.5,2.5 0 0,1 15.2,11V18.5H18.5M7.85,6A1.85,1.85 0 1,0 6,4.15A1.85,1.85 0 0,0 7.85,6Z" />
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/_ft.arjunnnn_?igsh=OGNxMGw0MDBlcnZ1" target="_blank"
+          class="footer-social-icon" aria-label="Instagram">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4A3.6,3.6 0 0,0 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6A3.6,3.6 0 0,0 16.4,4H7.6M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5Z" />
+          </svg>
+        </a>
+        <a href="mailto:arjunshaju410@gmail.com" class="footer-social-icon" aria-label="Email">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4M20,8L12,13L4,8V6L12,11L20,6V8Z" />
+          </svg>
+        </a>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <div class="toast-success-icon">
+      <svg viewBox="0 0 24 24">
+        <path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" />
+      </svg>
+    </div>
+    <span id="toast-message">Message sent successfully!</span>
+  </div>
+
+  <!-- Project Details Modal -->
+  <div class="modal-overlay" id="project-modal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close details">
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+        </svg>
+      </button>
+      <div class="modal-badge" id="modal-project-badge">Category</div>
+      <h3 class="modal-title" id="modal-project-title">Project Title</h3>
+      <div class="modal-tagline" id="modal-project-tagline">Project Tagline</div>
+      <div class="modal-divider"></div>
+      <div class="modal-body">
+        <ul class="modal-bullets" id="modal-project-bullets">
+          <!-- Populated by JS -->
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <div class="modal-tech-tags" id="modal-project-tags">
+          <!-- Populated by JS -->
+        </div>
+        <div class="modal-links">
+          <a href="#" class="btn-sm btn-sm-outline" id="modal-btn-github" target="_blank">GITHUB</a>
+          <a href="#" class="btn-sm btn-sm-primary" id="modal-btn-live" target="_blank">LIVE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
